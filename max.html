@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>max</title>
+</head>
+<body>
+<script>
+    // tìm giá trị max trong mảng
+    let ab = [223, 234, 222, 333, 99];
+    let max = ab[0];
+    for (let i = 0; i < ab.length; i++) {
+        if (max < ab[i]) {
+            max = ab[i];
+        }
+    }
+    document.write(max);
+</script>
+</body>
+</html>

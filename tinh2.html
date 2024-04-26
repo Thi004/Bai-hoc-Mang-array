@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // tinh trung bình cộng các phần tử lớn hơn 1000 trong mảng
+    let ab = [123, 1234, 222, 333, 9999];
+    let tong = 0; // biến tính tổng
+    let count = 0; // biến điếm số lượng
+    for (let i = 0; i < ab.length; i++) {
+        if (ab[i] > 1000) {
+            tong += ab[i];
+            count++;
+        }
+    }
+    document.write(tong/count);
+</script>
+
+</body>
+</html>
